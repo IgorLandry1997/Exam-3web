@@ -12,7 +12,23 @@
     position: relative;
     max-width: 100%;
     overflow: hidden;
-}
+body {
+    background-color: #000;
+    color: #fff;
+ }
+.price-box {
+     background-color: #f7941d;
+        color: #fff;
+        padding: 15px;
+        border-radius: 10px;
+        text-align: center;
+        font-weight: bold;
+        }
+        .icon-text {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
 
 .carousel-container {
     display: flex;
@@ -109,7 +125,7 @@
             </li>
           </ul>
           <div>
-            <button class="btn btn-primary" >Contact us</button>
+            <button class="bg-orange-500 px-4 py-2 rounded-lg">Contact us</button>
         </div>
         </div>
       </nav>
@@ -149,5 +165,39 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
+
+      <div class="container py-5">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h6 class="text-uppercase">Why Choose Us</h6>
+                <h1 class="fw-bold">Get all the series, movies, and live channels in one place</h1>
+                <p>There's no need to subscribe to multiple platforms; Flix Prime offers consolidation of content from multiple platforms, premium channels, live TV, and sports, all in one place and at an unbeatable price.</p>
+                
+                <div class="d-flex flex-column gap-3">
+                    <div class="icon-text">
+                        <span class="text-warning fs-4">&#128222;</span>
+                        <div>
+                            <strong>24/7 Support</strong>
+                            <p class="m-0">We have permanent personalized attention.</p>
+                        </div>
+                    </div>
+                    <div class="icon-text">
+                        <span class="text-warning fs-4">&#127760;</span>
+                        <div>
+                            <strong>Activation in 5 minutes</strong>
+                            <p class="m-0">Only an internet connection of at least 30mb is required.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 text-center position-relative">
+                <img src="banner5.jpg" alt="Woman watching TV" class="img-fluid rounded">
+                <div class="price-box position-absolute" style="bottom: 20px; right: 20px;">
+                    <h2>S/ 19.90</h2>
+                    <p class="m-0">PER MONTH (up to 3 devices)</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
